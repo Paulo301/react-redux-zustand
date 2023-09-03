@@ -1,7 +1,9 @@
-import { useSelector } from "react-redux"
+import { useTypedSelector } from "../store"
 
 export function TodoList() {
-  const todos = useSelector(store => store.todo)
+  const todos = useTypedSelector(store => store.todo)
+
+  console.log(todos)
 
   return (
     <ul>
