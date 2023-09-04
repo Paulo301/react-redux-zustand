@@ -33,7 +33,7 @@ const exampleState: PlayerState = {
   },
   currentModuleIndex: 0,
   currentLessonIndex: 0,
-  isLoding: false,
+  isLoading: false,
 };
 
 describe("player slice", () => {
